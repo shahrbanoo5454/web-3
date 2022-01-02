@@ -39,7 +39,7 @@ else if(num==4){
 // 3)false
 // 4)5
 // 6)0
-// 7)not definne
+// 7)not define(false)
 
 
 
