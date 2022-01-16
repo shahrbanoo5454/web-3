@@ -1,5 +1,5 @@
 var rand; //عدد تصادفی
-var round=0; //راند چندم
+var round=1; //راند چندم
 var result; //نتیجه این هر راند 
 var computer_record=0; //رکورد کامپیوتر
 var user_record=0;  //کورد کاربر
