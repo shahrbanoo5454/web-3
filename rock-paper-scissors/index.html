@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>سنگ کاغذ قیچی!!!</title>
+    <style>
+        .bg-body{
+            background-color: darkmagenta;
+            height: 100vh;
+        }
+        img{
+            width: 12em;
+            height: 12em;
+            border-radius: 50%;
+        }
+        img:hover{
+          border: 5px solid #ffc107;  
+        }
+    </style>
+</head>
+
+<body>
+   <div class="container p-0 bg-body ">
+
+     <div class="row">
+         <div class="col-12">
+             <h2 class="text-center bg-warning py-4">سنگ کاغذ یا قیچی؟؟؟</h2>
+         </div>
+     </div>
+     <div class="row mt-5 mb-5 justify-content-between ">
+         <div class="col-4 text-align-center ">
+            <div class="bg-warning p-3 rounded w-50 text-center mx-auto">
+                <span id="$user-record"></span>
+           <span >  :رکورد کاربر</span>
+           </div>
+         </div>
+         <div class="col-4 text-center text-warning bould"> 
+            
+            <span class="d-block">
+             :نتیجه این دور
+
+            </span> 
+            <span id="$Result" class="font-weight-bold"></span>
+         </div>
+         <div class="col-4 text-center text-center">
+             <div class="bg-warning p-3 rounded w-50 text-center mx-auto">
+                  <span id="$computer-record"></span>
+             <span >  :رکورد کامپیوتر</span>
+             </div>
+              </div>
+     </div>
+     <div class="row mt-5 mb-5 text-center">
+         <div class="col-12 mb-5"><img src="./img/ac-image-98159807488 (1).jpeg" alt="سنگ" onclick="rock()"></div>
+         <div class="col-4 mt-2"><img src="./img/ac-image-981598074886T3 (1).jpeg" alt="کاغذ" onclick="paper()"></div>
+         <div class="col-4 mt-4 text-warning font-weight-bold h2"><span id="round"></span><span>:راند </span></div>
+         <div class="col-4 mt-2"><img src="./img/one.jpg" alt="قیچی" onclick="scissors()"></div>
+     </div>
+
+
+   </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
