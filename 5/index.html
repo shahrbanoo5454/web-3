@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>calculator</title>
+    <style></style>
+</head>
+<body>
+    <div class="container bg-primary mt-3 p-5">
+        
+       <div class="row">
+           <div class="col-12">
+               <h1 class="h1 py-4 text-center">calculator</h1>
+           </div>
+           <div class="col-12  text-center">
+               <input type="number" placeholder="enter number one.." id="num1">
+               <input type="number"  placeholder="enter number two.." id="num2">
+           </div>
+           <div class="col-12  text-center mt-5">
+               <button type="button" class="btn bg-warning" onclick="addition()">+</button>
+               <button type="button" class="btn bg-warning" onclick="subtraction()">-</button>
+               <button type="button" class="btn bg-warning" onclick="multiplication()">*</button>
+               <button type="button" class="btn bg-warning" onclick="division()">/</button>
+           </div>
+           <div class="col-12 text-center">
+               <input type="number" id="answer" class="w-25 pt-4 my-5 " placeholder="answer is="> 
+           </div>
+       </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
